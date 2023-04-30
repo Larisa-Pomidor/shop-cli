@@ -1,0 +1,74 @@
+[
+    {
+        "id": 78,
+        "details": {
+            "name": "Lorem Ipsum",
+            "price": 20.09,
+            "image": "pic-1.jpg"
+        }
+    },
+    {
+        "id": 189,
+        "details": {
+            "name": "Lorem Ipsum",
+            "price": 130.00,
+            "image": "pic-2.jpg"
+        }
+    },
+    {
+        "id": 2,
+        "details": {
+            "name": "Lorem Ipsum",
+            "price": 34.79,
+            "image": "pic-3.jpg"
+        }
+    },
+    {
+        "id": 3,
+        "details": {
+            "name": "Lorem Ipsum",
+            "price": 178.20,
+            "image": "pic-4.jpg"
+        }
+    },
+    {
+        "id": 4,
+        "details": {
+            "name": "Lorem Ipsum",
+            "price": 670.40,
+            "image": "pic-5.jpg"
+        }
+    },
+    {
+        "id": 5,
+        "details": {
+            "name": "Lorem Ipsum",
+            "price": 90.00,
+            "image": "pic-6.jpg"
+        }
+    },
+    {
+        "id": 6,
+        "details": {
+            "name": "Lorem Ipsum",
+            "price": 10.00,
+            "image": "pic-7.jpg"
+        }
+    },
+    {
+        "id": 7,
+        "details": {
+            "name": "Lorem Ipsum",
+            "price": 270.30,
+            "image": "pic-8.jpg"
+        }
+    },
+    {
+        "id": 8,
+        "details": {
+            "name": "Lorem Ipsum",
+            "price": 50.70,
+            "image": "pic-9.jpg"
+        }
+    }
+]
