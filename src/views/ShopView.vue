@@ -52,7 +52,7 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'HomeVue',
   props: ['products', 'addToCart']
 }
 </script>

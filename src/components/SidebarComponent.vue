@@ -77,21 +77,21 @@
 
 <script>
 export default {
-    computed: {
-        emptyCart () {
-            return Object.keys(this.cart).length > 0
-        }
-    },
-    methods: {
-        total () {
-            if (Object.keys(this.cart).length != 0) {
-                const total = Object.entries(this.cart).reduce((acc, cur) => {
-                    return acc + parseFloat(cur[1].qty * cur[1].item.details.price)
-                }, 0)
-                return total.toFixed(2)
-            } else return 0
-        }
-    },
-    props: ['cart', 'toggle', 'length', 'remove']
+  computed: {
+    emptyCart () {
+      return Object.keys(this.cart).length > 0
+    }
+  },
+  methods: {
+    total () {
+      if (Object.keys(this.cart).length !== 0) {
+        const total = Object.entries(this.cart).reduce((acc, cur) => {
+          return acc + parseFloat(cur[1].qty * cur[1].item.details.price)
+        }, 0)
+        return total.toFixed(2)
+      } else return 0
+    }
+  },
+  props: ['cart', 'toggle', 'length', 'remove']
 }
 </script>

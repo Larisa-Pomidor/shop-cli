@@ -96,7 +96,7 @@ html {
 
 .header__menu a.router-link-exact-active {
     color: silver;
-  }
+}
 
 .header__socials {
     display: flex;
@@ -403,7 +403,7 @@ html {
     font-family: 'Dancing Script', cursive;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 900px) {
     .container {
         padding: 20px;
     }
@@ -439,5 +439,52 @@ html {
         justify-content: flex-end;
         margin-bottom: -20px;
         cursor: pointer;
+    }
+
+    .home__block {
+        grid-template-columns: 1fr;
+    }
+
+    .shop__list {
+        grid-template-columns: 1fr;
+    }
+
+    .home__title {
+        margin: 0;
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .home__block {
+        height: unset;
+    }
+
+    .home__image {
+        height: 400px;
+    }
+
+    .shop__title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .shop__inner {
+        padding: 80px 0;
+    }
+
+    .header__cart {
+        min-width: 100px;
+    }
+
+    .cart__inner {
+        width: 100%;
+        right: 0;
+        box-sizing: border-box;
+    }
+
+    .cart__checkout {
+        flex-direction: column;
+        gap: 30px;
     }
 }
